@@ -1,24 +1,21 @@
 {
-  "name": "react_starter",
+  "name": "react-prototypes",
   "version": "1.0.0",
-  "description": "Starting setup for react redux project",
+  "description": "React prototypes for learning React, pairs with http://reactPrototypes.com",
   "main": "index.js",
   "scripts": {
     "start": "node dev_server.js",
-    "bundle": "node_modules/.bin/webpack --config webpack.deploy.config.js --progress --colors",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Scott Bowler",
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Learning-Fuze/react_starter.git"
+    "url": "https://github.com/Learning-Fuze/react-prototypes.git"
   },
   "dependencies": {
     "react": "^15.4.2",
-    "react-dom": "^15.4.2",
-    "react-redux": "^5.0.2",
-    "redux": "^3.6.0"
+    "react-dom": "^15.4.2"
   },
   "devDependencies": {
     "babel-core": "^6.13.2",
